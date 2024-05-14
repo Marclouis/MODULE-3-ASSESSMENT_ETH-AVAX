@@ -13,8 +13,6 @@ Mtoken is an ERC20 token contract written in Solidity. It allows for minting new
 
 ## Usage
 
-### Minting
-
 To mint new tokens, call the `mint` function. This function will create and assign 50 tokens to the caller.
 
 function mint() public;
@@ -23,6 +21,7 @@ Burning
 To burn existing tokens, use the burn function. Provide the address from which to burn tokens and the amount to burn.
 function burn(address from, uint256 amount) public;
 
+## Imported
 
 ERC20
 Overview
